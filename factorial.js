@@ -7,11 +7,11 @@
 
 // console.log(factorial(5)); // Output: 120
 
-// function factorial(num) {
-//   let multy = 1;
-//   for (let i = 1; i <= num; i++) {
-//     multy = multy * i;
-//   }
-//   return multy;
-// }
-// console.log(factorial(5));
+function factorial(num) {
+  let multy = 1;
+  for (let i = 1; i <= num; i++) {
+    multy = multy * i;
+  }
+  return multy;
+}
+console.log(factorial(5));
